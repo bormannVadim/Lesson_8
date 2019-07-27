@@ -20,7 +20,7 @@ namespace Lesson_8
                 FastSort(arr, 0, arr.Length - 1);
                 DateTime end1 = DateTime.Now;
                 Console.WriteLine("Быстрая сортировка для "+length[i]+" занимает: " + (end1 - start1));
-                // сортировка подсчётом
+                // сортировка подсчётом df
                 start1 = DateTime.Now;
                 int[] arr2 = FillArray(max, length[i]);
                 countSort(arr2, arr2.Length, max);
